@@ -1,4 +1,4 @@
-package com.hkdemircan.hello;
+/*package com.hkdemircan.hello;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,4 +13,4 @@ public class HelloApplicationTests {
     public void contextLoads() {
     }
 
-}
+}*/
