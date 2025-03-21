@@ -8,7 +8,7 @@ import java.util.Map;
 @RestController
 public class HelloWorld {
 
-    @GetMapping("/")
+   @GetMapping("/hello")
     public Map<String, String> getMessage() {
         try {
             Thread.sleep(80000);
