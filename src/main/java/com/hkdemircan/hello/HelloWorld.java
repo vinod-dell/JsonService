@@ -13,12 +13,12 @@ public class HelloWorld {
    @GetMapping("/hello")
     public Map<String, String> getMessage() {
         try {
-            Thread.sleep(1200000);
+            Thread.sleep(120000);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
         Map<String, String> response = new HashMap<>();
-        response.put("message", "Sleep after 80 sec");
+        response.put("message", "Sleep after 120 sec");
 
         return response;
     }
