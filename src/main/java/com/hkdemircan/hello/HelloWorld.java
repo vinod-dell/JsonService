@@ -13,7 +13,7 @@ public class HelloWorld {
    @GetMapping("/hello")
     public Map<String, String> getMessage() {
         try {
-            Thread.sleep(80000);
+            Thread.sleep(1200000);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
